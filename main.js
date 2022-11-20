@@ -9,3 +9,7 @@
 //     }
 //     return sum
 // }
+
+function opposite(number) {
+    return -number
+}
