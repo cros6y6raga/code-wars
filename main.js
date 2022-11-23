@@ -14,6 +14,13 @@
 //     return -number
 // }
 
-function numberToString(num) {
-    return num.toString();
+// function numberToString(num) {
+//     return num.toString();
+// }
+
+function removeChar(str){
+    str='vova'
+    return str.slice(1,-1)
 }
+
+console.log(removeChar(''))
