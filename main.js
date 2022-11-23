@@ -10,6 +10,10 @@
 //     return sum
 // }
 
-function opposite(number) {
-    return -number
+// function opposite(number) {
+//     return -number
+// }
+
+function numberToString(num) {
+    return num.toString();
 }
