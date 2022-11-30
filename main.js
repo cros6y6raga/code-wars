@@ -18,9 +18,11 @@
 //     return num.toString();
 // }
 
-function removeChar(str){
-    str='vova'
-    return str.slice(1,-1)
-}
+// function removeChar(str){
+//     str='vova'
+//     return str.slice(1,-1)
+// }
+//
+// console.log(removeChar(''))
 
-console.log(removeChar(''))
+const repeatStr = (n, s) => s.repeat(n)
