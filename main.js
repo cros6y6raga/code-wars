@@ -25,4 +25,12 @@
 //
 // console.log(removeChar(''))
 
-const repeatStr = (n, s) => s.repeat(n)
+// const repeatStr = (n, s) => s.repeat(n)
+
+function squareSum(numbers){
+    let sum = 0
+    for(i = 0 ; i < numbers.length; i++){
+        sum += (numbers[i] * numbers[i])
+    }
+    return sum
+}
