@@ -27,10 +27,21 @@
 
 // const repeatStr = (n, s) => s.repeat(n)
 
-function squareSum(numbers){
-    let sum = 0
-    for(i = 0 ; i < numbers.length; i++){
-        sum += (numbers[i] * numbers[i])
+// function squareSum(numbers){
+//     let sum = 0
+//     for(i = 0 ; i < numbers.length; i++){
+//         sum += (numbers[i] * numbers[i])
+//     }
+//     return sum
+// }
+
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+        args = [3, 4, -9, 3, 5, 1, 7];
+        const minimum = Math.min(...args);
+        return (
+            args
+        )
+
     }
-    return sum
 }
