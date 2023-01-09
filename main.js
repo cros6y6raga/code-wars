@@ -35,13 +35,22 @@
 //     return sum
 // }
 
-class SmallestIntegerFinder {
-    findSmallestInt(args) {
-        args = [3, 4, -9, 3, 5, 1, 7];
-        const minimum = Math.min(...args);
-        return (
-            args
-        )
+// class SmallestIntegerFinder {
+//     findSmallestInt(args) {
+//         args = [3, 4, -9, 3, 5, 1, 7];
+//         const minimum = Math.min(...args);
+//         return (
+//             args
+//         )
+//
+//     }
+// }
 
+var summation = function (num) {
+    let result = 0;
+    for (var i = 1; i <= num; i++) {
+        result += i;
     }
+
+    return result;
 }
