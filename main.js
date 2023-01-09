@@ -46,11 +46,19 @@
 //     }
 // }
 
-var summation = function (num) {
-    let result = 0;
-    for (var i = 1; i <= num; i++) {
-        result += i;
-    }
+// var summation = function (num) {
+//     let result = 0;
+//     for (var i = 1; i <= num; i++) {
+//         result += i;
+//     }
+//
+//     return result;
+// }
 
-    return result;
+function countSheeps(arrayOfSheep) {
+    let counter = 0
+    for(let i = 0; i < arrayOfSheep.length; i++) {
+        if(arrayOfSheep[i]) counter += 1
+    }
+    return counter
 }
