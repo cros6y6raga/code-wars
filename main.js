@@ -55,10 +55,21 @@
 //     return result;
 // }
 
-function countSheeps(arrayOfSheep) {
-    let counter = 0
-    for(let i = 0; i < arrayOfSheep.length; i++) {
-        if(arrayOfSheep[i]) counter += 1
+// function countSheeps(arrayOfSheep) {
+//     let counter = 0
+//     for(let i = 0; i < arrayOfSheep.length; i++) {
+//         if(arrayOfSheep[i]) counter += 1
+//     }
+//     return counter
+// }
+
+const century = (year) => {
+    let start = 0;
+
+    for (let i = 0; i < year; i++) {
+        if (i % 100 === 0) {
+            start++;
+        }
     }
-    return counter
+    return start;
 }
