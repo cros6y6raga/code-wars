@@ -63,13 +63,19 @@
 //     return counter
 // }
 
-const century = (year) => {
-    let start = 0;
+// const century = (year) => {
+//     let start = 0;
+//
+//     for (let i = 0; i < year; i++) {
+//         if (i % 100 === 0) {
+//             start++;
+//         }
+//     }
+//     return start;
+// }
 
-    for (let i = 0; i < year; i++) {
-        if (i % 100 === 0) {
-            start++;
-        }
-    }
-    return start;
+function greet(name) {
+    if (name === "Johnny") {
+        return "Hello, my love!";
+    } else return "Hello, " + name + "!";
 }
