@@ -80,4 +80,34 @@
 //     } else return "Hello, " + name + "!";
 // }
 
-const arrayPlusArray = (arr1, arr2) => arr1.concat(arr2).reduce((one, two) => one + two)
+// const arrayPlusArray = (arr1, arr2) => arr1.concat(arr2).reduce((one, two) => one + two)
+
+function getPlanetName(id) {
+    let name = 'Earth';
+    switch (id) {
+        case 1:
+            name = 'Mercury'
+            break
+        case 2:
+            name = 'Venus'
+            break
+        case 3:
+            name = 'Earth'
+            break
+        case 4:
+            name = 'Mars'
+            break
+        case 5:
+            name = 'Jupiter'
+            break
+        case 6:
+            name = 'Saturn'
+            break
+        case 7:
+            name = 'Uranus'
+            break
+        case 8:
+            name = 'Neptune'
+    }
+    return name;
+}
