@@ -74,8 +74,10 @@
 //     return start;
 // }
 
-function greet(name) {
-    if (name === "Johnny") {
-        return "Hello, my love!";
-    } else return "Hello, " + name + "!";
-}
+// function greet(name) {
+//     if (name === "Johnny") {
+//         return "Hello, my love!";
+//     } else return "Hello, " + name + "!";
+// }
+
+const arrayPlusArray = (arr1, arr2) => arr1.concat(arr2).reduce((one, two) => one + two)
