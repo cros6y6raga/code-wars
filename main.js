@@ -112,12 +112,19 @@
 //     return name;
 // }
 
-function createArray(number){
-    var newArray = [];
+// function createArray(number){
+//     var newArray = [];
+//
+//     for(var counter = 1; counter <= number; counter++){
+//         newArray.push(counter);
+//     }
+//
+//     return newArray;
+// }
 
-    for(var counter = 1; counter <= number; counter++){
-        newArray.push(counter);
-    }
-
-    return newArray;
+function checkAlive(health) {
+    if (health > 0) {
+        return true
+    } else
+        return false
 }
