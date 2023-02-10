@@ -122,9 +122,13 @@
 //     return newArray;
 // }
 
-function checkAlive(health) {
-    if (health > 0) {
-        return true
-    } else
-        return false
-}
+// function checkAlive(health) {
+//     if (health > 0) {
+//         return true
+//     } else
+//         return false
+// }
+
+// var a = "code";
+// var b = "wa.rs";
+// var name = a + b;
