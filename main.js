@@ -129,6 +129,11 @@
 //         return false
 // }
 
-let a = "code";
-let b = "wa.rs";
-let name = a + b;
+// let a = "code";
+// let b = "wa.rs";
+// let name = a + b;
+
+function mystery() {
+    let results = {sanity: 'Hello'};
+    return results;
+}
