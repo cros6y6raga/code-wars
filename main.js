@@ -133,7 +133,17 @@
 // let b = "wa.rs";
 // let name = a + b;
 
-function mystery() {
-    let results = {sanity: 'Hello'};
-    return results;
-}
+// function mystery() {
+//     let results = {sanity: 'Hello'};
+//     return results;
+// }
+
+var greet_abe = function () {
+    var name = 'Abe';
+    return "Hello, " + name + '!';
+};
+
+var greet_ben = function () {
+    var name = 'Ben';
+    return "Hello, " + name + '!';
+};
